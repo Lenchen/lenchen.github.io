@@ -1,0 +1,74 @@
+@charset "utf-8";
+@import "~bulma/bulma.sass";
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono|Habibi|Raleway&display=swap');
+
+$font-headline: 'Habibi', serif;
+$font-reading: 'Fira Mono', serif;
+$font-structuring: 'Raleway', sans-serif;
+
+$color-primary: #625FD5;
+
+h1 {
+  font-size: 45px;
+  font-family: $font-headline;
+}
+
+h2 {
+  font-size: 24px;    
+  font-family: $font-structuring;
+}
+
+h3 {
+  font-size: 16px;
+  font-family: $font-structuring;
+}
+
+h4 {
+  font-size: 16px;
+  font-family: $font-structuring;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;;
+  font-family: $font-reading;
+  line-height: 26px;
+}
+
+a {
+  text-decoration: underline;
+  color: $color-primary;
+}
+
+.textSmall {
+  font-size: 14px;
+}
+
+.textBold {
+  font-weight: bold;
+}
+
+.is-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.has-max-width {
+  max-width: 600px;
+}
+
+section {
+  margin-bottom: 70px;
+}
+
+.margin-xl {
+  margin-bottom: 70px;
+}
+
+.margin-lg {
+  margin-bottom: 50px;
+}
+
+.margin-md {
+  margin-bottom: 25px;
+}

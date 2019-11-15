@@ -1,0 +1,27 @@
+$color-primary: #625FD5;
+
+.line {
+    height: 2px;
+    width: 90px;
+    background-color: $color-primary;
+}
+
+.sm {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.md {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.lg {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
