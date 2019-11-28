@@ -1,0 +1,51 @@
+$color-primary: #625FD5;
+
+.cookiebanner {
+  background-color: #F8F8F8;
+  color: #848384;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  z-index: 1;
+  //border: 5px solid $color-primary;
+}
+
+.cookietext {  
+  align-self: center;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.cookiebutton {
+  border: none;
+  background-color: transparent;
+  color: $color-primary;
+  top: -7px;
+  right: -5px;
+
+
+  i {
+    font-size: 25px;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active, &.focus {
+    border: none;
+    box-shadow: none;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .cookiebanner {
+    padding-left: 15px;
+  }
+
+  .cookietext {
+    line-height: 20px;
+  }
+}

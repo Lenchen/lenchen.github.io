@@ -1,4 +1,27 @@
 .personal {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.personalPadding {
+  padding-left: 25px;
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 960px) {
+  .personal {
+    max-width: 650px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .personal {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .personalPadding {
+    padding-left: 0;
+  }
 }

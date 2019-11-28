@@ -4,3 +4,10 @@ $color-primary: #625FD5;
     max-width: 790px;
     margin: 50px auto 90px auto;
 }
+
+@media screen and (max-width: 768px) {
+  .heroText {
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+}
